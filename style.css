@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.capture{
+    padding: 1rem;
+}
+.capture > input{
+    width: 70%;
+    height: 20px;
+    border-color: blue;
+    border-radius: 5px;
+}
+.btn{
+    color: white;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+    padding: 5px 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
